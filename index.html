@@ -101,7 +101,7 @@
 						<div class="display-t">
 							<div class="display-tc animate-box" data-animate-effect="fadeIn">
 								<h1>Ngọc Tú &amp; Hồng Hạnh</h1>
-								<h2>Chúng tôi đã kết hôn</h2>
+								<h2>WE'RE GETTING MARRIED</h2>
 								<div class="simply-countdown simply-countdown-one"></div>
 								<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
 							</div>
@@ -370,45 +370,7 @@
 					<div class="row">
 						<div class="col-md-12 animate-box">
 							<div class="wrap-testimony">
-								<div class="owl-carousel-fullwidth" id="wish-list">
-									<div class="item">
-										<div class="testimony-slide active text-center">
-											<figure>
-												<img src="images/couple-1.jpg" alt="user">
-											</figure>
-											<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-											<blockquote>
-												<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-													there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
-													Semantics"</p>
-											</blockquote>
-										</div>
-									</div>
-									<div class="item">
-										<div class="testimony-slide active text-center">
-											<figure>
-												<img src="images/couple-2.jpg" alt="user">
-											</figure>
-											<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-											<blockquote>
-												<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at
-													the coast of the Semantics, a large language ocean."</p>
-											</blockquote>
-										</div>
-									</div>
-									<div class="item">
-										<div class="testimony-slide active text-center">
-											<figure>
-												<img src="images/couple-3.jpg" alt="user">
-											</figure>
-											<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-											<blockquote>
-												<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts.
-													Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-													ocean."</p>
-											</blockquote>
-										</div>
-									</div>
+								<div class="owl-carousel owl-theme owl-carousel-fullwidth" id="wish-list">
 								</div>
 							</div>
 						</div>
@@ -488,22 +450,22 @@
 					</div>
 				</div>
 				<div class="row animate-box">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-10 col-md-offset-2 text-center">
 						<form class="form-inline" id="wish-form">
-							<div class="col-md-4 col-sm-4">
+							<div class="col-md-10 col-sm-10">
 								<div class="form-group">
 									<label for="name" class="sr-only">Tên của bạn</label>
-									<input type="name" class="form-control" id="name" placeholder="Nhập tên của bạn">
+									<input name="name" class="form-control" id="name" placeholder="Nhập tên của bạn">
 								</div>
 							</div>
-							<div class="col-md-4 col-sm-4">
+							<div class="col-md-10 col-sm-10">
 								<div class="form-group">
-									<label for="email" class="sr-only">Lời chúc</label>
+									<label for="message" class="sr-only">Lời chúc</label>
 									<textarea class="form-control" name="message" rows="3" placeholder="Viết lời chúc..."
 										required></textarea>
 								</div>
 							</div>
-							<div class="col-md-4 col-sm-4">
+							<div class="col-md-10 col-sm-10">
 								<button id="btn-send-wish" type="submit" class="btn btn-default btn-block">Gửi</button>
 							</div>
 						</form>
@@ -511,63 +473,57 @@
 				</div>
 			</div>
 		</div>
-		<section class="container py-5" id="wedding-gift">
-			<div class="text-center mb-5" data-aos="fade-up">
-				<h2 class="wedding-font text-danger display-4">Hộp Mừng Cưới</h2>
-				<p class="text-muted mx-auto max-w-600">
-					Nếu không thể tham dự, bạn vẫn có thể gửi chút quà nhỏ để chúc mừng hạnh phúc cho chúng mình nhé!
-				</p>
+		<!-- qr -->
+		<div class="wedding-qr-card">
+			<div class="qr-title">
+				<span>Mừng Chú Rể</span>
 			</div>
-			<div class="row justify-content-center g-4">
-				<div class="col-md-5 col-lg-4" data-aos="flip-left">
-					<div class="bank-card p-4 text-center">
-						<h3 class="wedding-font text-danger mb-3">Mừng Chú Rể</h3>
-						<div class="qr-frame mb-3">
-							<img src="images/qr-groom.jpg" class="img-fluid rounded" alt="QR Chú Rể">
-						</div>
-						<div class="bank-info">
-							<p class="fw-bold mb-1">NGÂN HÀNG VIETCOMBANK</p>
-							<p class="mb-1">Chủ TK: <strong>NGUYEN VAN A</strong></p>
-							<div class="account-number-box d-flex justify-content-center align-items-center gap-2 mt-2">
-								<span id="stk-groom" class="fs-5 text-primary fw-bold">123456789</span>
-								<button class="btn btn-sm btn-outline-primary rounded-circle" title="Copy groom account number"
-									aria-label="Copy groom account number" onclick="copyToClipboard('stk-groom', this)">
-									<i class="fas fa-copy"></i>
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
 
-				<div class="col-md-5 col-lg-4" data-aos="flip-right">
-					<div class="bank-card p-4 text-center">
-						<h3 class="wedding-font text-danger mb-3">Mừng Cô Dâu</h3>
-						<div class="qr-frame mb-3">
-							<img src="images/qr-bride.jpg" class="img-fluid rounded" alt="QR Cô Dâu">
-						</div>
-						<div class="bank-info">
-							<p class="fw-bold mb-1">NGÂN HÀNG TECHCOMBANK</p>
-							<p class="mb-1">Chủ TK: <strong>TRAN THI B</strong></p>
-							<div class="account-number-box d-flex justify-content-center align-items-center gap-2 mt-2">
-								<span id="stk-bride" class="fs-5 text-primary fw-bold">987654321</span>
-								<button class="btn btn-sm btn-outline-primary rounded-circle" title="Copy bride account number"
-									aria-label="Copy bride account number" onclick="copyToClipboard('stk-bride', this)">
-									<i class="fas fa-copy"></i>
-								</button>
-							</div>
-						</div>
-					</div>
+			<div class="qr-image-box">
+				<img src="images/qr.jpg" class="qr-img" alt="QR Chú Rể">
+			</div>
+
+			<div class="qr-details">
+				<p class="bank-name">NGÂN HÀNG VIETCOMBANK</p>
+				<p class="account-holder">Chủ TK: <strong>NGUYEN VAN A</strong></p>
+
+				<div class="account-number-box">
+					<span class="acc-num" id="accNumGroom">123456789</span>
+					<button class="btn-copy" onclick="copyToClipboard('accNumGroom')">
+						<i class="fa-regular fa-copy"></i> Sao chép
+					</button>
 				</div>
 			</div>
-		</section>
+		</div>
+		<div class="wedding-qr-card">
+			<div class="qr-title">
+				<span>Mừng Cô dâu</span>
+			</div>
+
+			<div class="qr-image-box">
+				<img src="images/qr.jpg" class="qr-img" alt="QR Cô dâu">
+			</div>
+
+			<div class="qr-details">
+				<p class="bank-name">NGÂN HÀNG VIETCOMBANK</p>
+				<p class="account-holder">Chủ TK: <strong>NGUYEN VAN A</strong></p>
+
+				<div class="account-number-box">
+					<span class="acc-num" id="accNumGroom">123456789</span>
+					<button class="btn-copy" onclick="copyToClipboard('accNumGroom')">
+						<i class="fa-regular fa-copy"></i> Sao chép
+					</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop" title="Go to top"><i class="icon-arrow-up"></i></a>
 	</div>
-	<audio id="weddingMusic" loop>
+	<!-- <audio id="weddingMusic" loop>
 		<source src="./sound/nhaccuoi.mp3" type="audio/mp3">
-	</audio>
+	</audio> -->
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -650,9 +606,7 @@
 			heart.style.opacity = Math.random();
 			heart.style.zIndex = '0';
 			heart.style.animation = `fall ${Math.random() * 3 + 2}s linear`; // Tốc độ rơi
-
 			document.body.appendChild(heart);
-
 			// Xóa tim sau khi rơi xong để nhẹ máy
 			setTimeout(() => { heart.remove(); }, 5000);
 		}
@@ -668,77 +622,101 @@
 		}`;
 		// document.head.appendChild(styleSheet);
 		// lời chúc
-		// Thay link script của bạn vào đây
-		// Thêm tiền tố proxy vào trước link của bạn
 		const proxyUrl = 'https://api.allorigins.win/raw?url=';
-		const targetUrl = 'https://script.google.com/macros/s/AKfycbxP_EuTKmbab0fjbWOOr_6q5woRcgjxGERRWLOwWR_1g-_UcRMgNjpTgqaJ74k6oGij/exec';
+		const targetUrl = 'https://script.google.com/macros/s/AKfycbwkamio7QNd1ok9cwX7hmN5denvCCx9O3GdRQSGIkLu4u0VieIgnKMwFoUJq4rA3zR2/exec';
 		const wishScriptURL = proxyUrl + encodeURIComponent(targetUrl);
 		const wishForm = document.forms['wish-form'];
 		const wishList = document.getElementById('wish-list');
 		const btnSendWish = document.getElementById('btn-send-wish');
 
-		// 1. Hàm tải danh sách lời chúc
 		function loadWishes() {
+			const wishList = document.getElementById('wish-list');
 			fetch(wishScriptURL, {
-				method: 'GET', // Chỉ định rõ là GET
-				mode: 'cors',  // Quan trọng: Cho phép Cross-Origin
-				credentials: 'omit', // Quan trọng: Bỏ qua cookies để tránh Google chặn
-				redirect: 'follow',  // Quan trọng: Tự động chạy theo 302
+				method: 'GET',
+				mode: 'cors',
+				credentials: 'omit',
+				redirect: 'follow',
 				headers: {
-					"Content-Type": "text/plain;charset=utf-8", // Header đơn giản nhất
+					"Content-Type": "text/plain;charset=utf-8",
 				}
 			})
+				.then(response => {
+					if (!response.ok) {
+						throw new Error("Network response was not ok");
+					}
+					return response.json();
+				})
 				.then(data => {
-					console.log('test', data);
-					wishList.innerHTML = ''; // Xóa nội dung "Đang tải..."
-
+					wishList.innerHTML = '';
 					if (data.length === 0) {
-						wishList.innerHTML = '<p class="text-center text-muted">Chưa có lời chúc nào. Hãy là người đầu tiên!</p>';
+						wishList.innerHTML = '<div class="item"><p class="text-center">Chưa có lời chúc nào.</p></div>';
 						return;
 					}
-
+					let htmlContent = '';
 					data.forEach(wish => {
-						// Tạo giao diện từng lời chúc (Card)
-						const div = document.createElement('div');
-						div.className = 'card mb-3 shadow-sm border-0';
-						div.innerHTML = `
-                    <div class="card-body">
-                        <h5 class="card-title text-danger" style="font-family: 'Dancing Script', cursive; font-weight: bold;">
-                            ${wish.name}
-                        </h5>
-                        <p class="card-text text-secondary">${wish.message}</p>
-                    </div>
-                `;
-						wishList.appendChild(div);
+						htmlContent += `
+              <div class="item">
+                  <div class="testimony-slide active text-center">
+                      <h3 style="margin-bottom:10px">${wish.name}</h3>
+                      <blockquote>
+                          <p>"${wish.message}"</p>
+                      </blockquote>
+                  </div>
+              </div>
+          `;
 					});
+					wishList.innerHTML = htmlContent;
+					initOwlCarousel();
+				})
+				.catch(error => {
+					console.error('Lỗi tải lời chúc:', error);
+					wishList.innerHTML = '<p class="text-center">Không thể tải lời chúc.</p>';
 				});
 		}
-
-		// 2. Tải lời chúc ngay khi vào web
+		function initOwlCarousel() {
+			if (typeof $ === 'undefined') {
+				console.error('jQuery chưa được load!');
+				return;
+			}
+			var $owl = $('#wish-list');
+			$owl.trigger('destroy.owl.carousel');
+			$owl.owlCarousel({
+				items: 1,
+				loop: true,
+				margin: 0,
+				responsiveClass: true,
+				nav: false,
+				dots: true,
+				smartSpeed: 400,
+				autoplay: true,
+				autoplayTimeout: 5000,
+				autoplayHoverPause: true
+			});
+		}
 		window.addEventListener('load', loadWishes);
-
-		// 3. Xử lý khi gửi lời chúc mới
 		wishForm.addEventListener('submit', e => {
 			e.preventDefault();
-
-			// Hiệu ứng loading
 			btnSendWish.disabled = true;
 			btnSendWish.innerText = "Đang gửi...";
-
-			// Gửi dữ liệu đi
 			fetch(wishScriptURL, { method: 'POST', body: new FormData(wishForm) })
 				.then(response => {
-					// Reset form
 					wishForm.reset();
 					btnSendWish.disabled = false;
 					btnSendWish.innerText = "Gửi lời chúc";
-
-					// Tải lại danh sách để hiện lời chúc vừa gửi
 					loadWishes();
 					alert("Cảm ơn bạn đã gửi lời chúc!");
 				})
 				.catch(error => console.error('Error!', error.message));
 		});
+		function copyToClipboard(elementId) {
+			var copyText = document.getElementById(elementId).innerText;
+				navigator.clipboard.writeText(copyText).then(function() {
+				alert("Đã sao chép số tài khoản: " + copyText);
+			}, function(err) {
+				console.error('Lỗi khi sao chép: ', err);
+			});
+		}
+		</script>
 	</script>
 
 </body>
