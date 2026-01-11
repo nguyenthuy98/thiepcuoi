@@ -1908,91 +1908,91 @@ form label {
 
 /* Background image rules for timeline badges */
 .timeline > li > .timeline-badge:nth-child(1) {
-  background-image: url("../images/TTN_7571.JPG");
+  background-image: url("../images/TTN_7571.webp");
 }
 
 .timeline > li.timeline-inverted > .timeline-badge {
-  background-image: url("../images/TTN_7590crop.JPG");
+  background-image: url("../images/TTN_7590.webp");
 }
 
 .timeline > li > .timeline-badge:last-of-type {
-  background-image: url("../images/TTN_7528crop.JPG");
+  background-image: url("../images/TTN_7528crop.webp");
 }
 
 /* Background image rule for fh5co-started section */
 #fh5co-started {
-  background-image: url("../images/TTN_7617.JPG");
+  background-image: url("../images/TTN_7617.webp");
 }
 
 /* Background image rule for fh5co-header */
 #fh5co-header {
-  background-image: url("../images/TTN_7500.JPG");
+  background-image: url("../images/TTN_7500.webp");
 }
 
 /* Background image rule for fh5co-event section */
 #fh5co-event {
-  background-image: url("../images/TTN_7560.JPG");
+  background-image: url("../images/TTN_7560.webp");
 }
 
 /* Gallery item background images */
 .gallery-item-1 {
-  background-image: url("../images/TTN_6710.JPG");
+  background-image: url("../images/TTN_6710.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-2 {
-  background-image: url("../images/TTN_6787.JPG");
+  background-image: url("../images/TTN_6787.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-3 {
-  background-image: url("../images/TTN_6800.JPG");
+  background-image: url("../images/TTN_6800.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-4 {
-  background-image: url("../images/TTN_7528.JPG");
+  background-image: url("../images/TTN_7528.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-5 {
-  background-image: url("../images/TTN_7551.JPG");
+  background-image: url("../images/TTN_7551.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-6 {
-  background-image: url("../images/TTN_7590.JPG");
+  background-image: url("../images/TTN_7590.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-7 {
-  background-image: url("../images/TTN_7617.JPG");
+  background-image: url("../images/TTN_7617.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-8 {
-  background-image: url("../images/TTN_7571.JPG");
+  background-image: url("../images/TTN_7571.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-9 {
-  background-image: url("../images/TTN_7624.JPG");
+  background-image: url("../images/TTN_7624.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

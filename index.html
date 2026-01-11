@@ -103,7 +103,7 @@
 				<div class="couple-wrap animate-box">
 					<div class="couple-half">
 						<div class="groom">
-							<img src="images/TTN_7400crop.JPG" alt="groom" class="img-responsive">
+							<img src="images/TTN_7400crop.webp" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-groom">
 							<h3>Đoàn Ngọc Tú</h3>
@@ -113,7 +113,7 @@
 					<p class="heart text-center"><i class="icon-heart2"></i></p>
 					<div class="couple-half">
 						<div class="bride">
-							<img src="images/crop.JPG" alt="groom" class="img-responsive">
+							<img src="images/crop.webp" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-bride">
 							<h3>Nguyễn Hồng Hạnh</h3>
@@ -427,7 +427,7 @@
 		// lời chúc
 		const proxyUrl = 'https://api.allorigins.win/raw?url=';
 		const targetUrl = 'https://script.google.com/macros/s/AKfycbwkamio7QNd1ok9cwX7hmN5denvCCx9O3GdRQSGIkLu4u0VieIgnKMwFoUJq4rA3zR2/exec';
-		const wishScriptURL = proxyUrl + encodeURIComponent(targetUrl);
+		const wishScriptURL = encodeURIComponent(targetUrl);
 		const wishForm = document.forms['wish-form'];
 		const wishList = document.getElementById('wish-list');
 		const btnSendWish = document.getElementById('btn-send-wish');
