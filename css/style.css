@@ -1,8 +1,8 @@
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src:
-    url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"),
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+      format("embedded-opentype"),
     url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
     url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
     url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
@@ -1130,11 +1130,17 @@ form label {
 }
 .couple-half .desc-groom {
   padding-right: 180px;
-  text-align: right;
+  text-align: center;
+}
+.couple-half .desc-groom p {
+  text-align: justify;
 }
 .couple-half .desc-bride {
   padding-left: 180px;
-  text-align: left;
+  text-align: center;
+}
+.couple-half .desc-bride p {
+  text-align: justify;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom,
@@ -1894,7 +1900,6 @@ form label {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
 }
 
 .js .animate-box {
@@ -1903,30 +1908,30 @@ form label {
 
 /* Background image rules for timeline badges */
 .timeline > li > .timeline-badge:nth-child(1) {
-  background-image: url("../images/couple-1.jpg");
+  background-image: url("../images/TTN_7571.JPG");
 }
 
 .timeline > li.timeline-inverted > .timeline-badge {
-  background-image: url("../images/couple-2.jpg");
+  background-image: url("../images/TTN_7590crop.jpg");
 }
 
 .timeline > li > .timeline-badge:last-of-type {
-  background-image: url("../images/couple-3.jpg");
+  background-image: url("../images/TTN_7528crop.jpg");
 }
 
 /* Background image rule for fh5co-started section */
 #fh5co-started {
-  background-image: url("../images/img_bg_4.jpg");
+  background-image: url("../images/TTN_7617.jpg");
 }
 
 /* Background image rule for fh5co-header */
 #fh5co-header {
-  background-image: url("../images/img_bg_2.jpg");
+  background-image: url("../images/TTN_7500.jpg");
 }
 
 /* Background image rule for fh5co-event section */
 #fh5co-event {
-  background-image: url("../images/img_bg_3.jpg");
+  background-image: url("../images/TTN_7560.jpg");
 }
 
 /* Background image rule for fh5co-counter section */
@@ -1934,70 +1939,65 @@ form label {
   background-image: url("../images/img_bg_5.jpg");
 }
 
-/* Background image rule for fh5co-video section */
-.fh5co-video {
-  background-image: url("../images/img_bg_3.jpg") !important;
-}
-
 /* Gallery item background images */
 .gallery-item-1 {
-  background-image: url("../images/gallery-1.jpg");
+  background-image: url("../images/TTN_6710.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-2 {
-  background-image: url("../images/gallery-2.jpg");
+  background-image: url("../images/TTN_6787.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-3 {
-  background-image: url("../images/gallery-3.jpg");
+  background-image: url("../images/TTN_6800.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-4 {
-  background-image: url("../images/gallery-4.jpg");
+  background-image: url("../images/TTN_7528.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-5 {
-  background-image: url("../images/gallery-5.jpg");
+  background-image: url("../images/TTN_7551.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-6 {
-  background-image: url("../images/gallery-6.jpg");
+  background-image: url("../images/TTN_7590.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-7 {
-  background-image: url("../images/gallery-7.jpg");
+  background-image: url("../images/TTN_7617.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-8 {
-  background-image: url("../images/gallery-8.jpg");
+  background-image: url("../images/TTN_7571.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .gallery-item-9 {
-  background-image: url("../images/gallery-9.jpg");
+  background-image: url("../images/TTN_7624.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2181,4 +2181,17 @@ form label {
 
 .btn-copy i {
   font-size: 14px;
+}
+.ml-0 {
+  margin-left: 0px;
+}
+.text-normal {
+  font-family: unset !important;
+}
+.thankyou-text {
+  color: #efe1e1 !important;
+  text-align: justify;
+}
+.padding-top-200 {
+  padding-top: 200px;
 }
